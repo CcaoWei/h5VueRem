@@ -21,15 +21,5 @@ export default new Router({ //type:1  为一级页面    type：2 为二级页�
     },
 
   ],
-  scrollBehavior (to, from, savePosition) {
-    if (savePosition) {
-      return savePosition;
-    } else {
-      return {
-        x: 0,
-        y: 0
-      }
-    }
 
-  }
 })
